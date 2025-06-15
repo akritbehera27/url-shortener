@@ -23,7 +23,7 @@ If you are further pushing it to git make sure that your logs and shorturls .htm
 git clone https://github.com/yourusername/url-shortener.git
 cd url-shortene
 git update-index --skip-worktree logs/*
- # Install dependencies based on your requirement
+
 ```
 
 
