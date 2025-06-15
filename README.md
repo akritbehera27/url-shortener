@@ -13,7 +13,18 @@ A lightweight, self-hosted URL shortener built with Python and static site hosti
 - **Frontend**: Static HTML/JS (compatible with GitHub Pages, Netlify, Vercel)
 - **Database**: None For minimalism
 - **Hosting**: Any static site provider
-- **Logs**: Logs are Stored at logs/links and logs/shorturls
+- **Logs**: Logs are Stored at logs/*
+  
+
+If you are further pushing it to git make sure that your logs and shorturls .html files are not being tracked so to ensure privcy use this command to ignore change to logs
+
+```
+ # Clone the repository
+git clone https://github.com/yourusername/url-shortener.git
+cd url-shortene
+git update-index --skip-worktree logs/*
+ # Install dependencies based on your requirement
+```
 
 
 ### Prerequisites
